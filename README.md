@@ -50,35 +50,29 @@ The project is divided into four main parts:
 - Data validation ensured that all numerical and categorical columns aligned with expected formats.
 
 ---
----
 
 ## Repository Structure
 
-nyc-schools-analysis/  \
-├── incident_analysis/ \  
-│   ├── data/ \
-│   ├── visuals/ \
+📁 nyc-schools-analysis/ \
+├── incident_analysis/ \
 │   └── README.md \
-│ \
+│   └── data/ \
+|       └── placeholder \
 ├── school_directory_exploration/ \
-│   ├── visuals/ \
-│   ├── school_directory.ipynb \
+│   └── day2_analysis.ipynb \
+│   └── visuals/ \
 │   └── README.md \
-│ \
 ├── database_queries/ \
-│   ├── queries.ipynb \
+│   └── day3_sql_analysis.ipynb \
 │   └── README.md \
-│ \
 ├── database_population/ \
-│   ├── cleaned_data.csv \
-│   ├── upload_script.py \
+|   └── data/ \
+|       └── sat-results.csv \
+|       └── cleaned_sat-results.csv \
+│   └── sat_modeling.ipynb \
 │   └── README.md \
-│ \
-├── assets/ \
-│   └── charts/ \
-│ \
 ├── requirements.txt \
-└── README.md \
+└── README.md           
 
 
 
