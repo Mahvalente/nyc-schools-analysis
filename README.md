@@ -55,31 +55,30 @@ The project is divided into four main parts:
 ## Repository Structure
 
 nyc-schools-analysis/  \
-├── incident_analysis/ \
-│   ├── data/ 
-│   ├── visuals/
-│   ├── incident_analysis.ipynb
-│   └── README.md
-│
-├── school_directory_exploration/
-│   ├── visuals/
-│   ├── school_directory.ipynb
-│   └── README.md
-│
-├── database_queries/
-│   ├── queries.ipynb
-│   └── README.md
-│
-├── database_population/
-│   ├── cleaned_data.csv
-│   ├── upload_script.py
-│   └── README.md
-│
-├── assets/
-│   └── charts/
-│
-├── requirements.txt
-└── README.md
+├── incident_analysis/ \  
+│   ├── data/ \
+│   ├── visuals/ \
+│   └── README.md \
+│ \
+├── school_directory_exploration/ \
+│   ├── visuals/ \
+│   ├── school_directory.ipynb \
+│   └── README.md \
+│ \
+├── database_queries/ \
+│   ├── queries.ipynb \
+│   └── README.md \
+│ \
+├── database_population/ \
+│   ├── cleaned_data.csv \
+│   ├── upload_script.py \
+│   └── README.md \
+│ \
+├── assets/ \
+│   └── charts/ \
+│ \
+├── requirements.txt \
+└── README.md \
 
 
 
