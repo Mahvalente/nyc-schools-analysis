@@ -25,9 +25,9 @@ All steps were performed directly in **Google Sheets**:
 
 1. **Data Cleaning**
    - Standardized column names with text functions (`LOWER`, `SUBSTITUTE`, `REGEXREPLACE`).  
-   - Filled missing borough values manually where possible, based on identical building codes or addresses.  
+   - Filled missing borough values manually where possible, based on identical building codes or addresses.
+   - Replaced values to keep data standardized.
    - Verified all numeric columns were recognized as numbers and handled blank cells as zeros for accurate calculations.  
-   - Used conditional formatting to highlight duplicates or missing values (e.g., empty DBNs or Boroughs).
 
 2. **Exploration**
    - Created a helper column summing all incident types per school.  
@@ -38,8 +38,8 @@ All steps were performed directly in **Google Sheets**:
 ---
 
 ## 📊 Key Findings
-- **Total Rows:** 6,310  
-- **Most Frequent Incident Type:** *NoCrim N* with 23,544 total incidents.  
+- **Total Rows:** 6,309  
+- **Most Frequent Incident Type:** *NoCrim N* with 11,772 total incidents.  
 - **Bronx share:** 28.30% in the original dataset (before cleaning).  
 - Some schools reported **zero incidents**, while one reached **130 incidents**, showing wide variation.  
 - **Brooklyn** had the largest overall number of incidents (~30%).  
@@ -50,9 +50,8 @@ All steps were performed directly in **Google Sheets**:
 
 ## 🧰 Tools & Functions Used
 - **Google Sheets**
-  - `LOWER`, `SUBSTITUTE`, `REGEXREPLACE`, `SUMIF`, `COUNTIF`, `UNIQUE`, `COUNTA`, `IF`, `SWITCH`
+  - `LOWER`, `SUBSTITUTE`, `REGEXREPLACE`, `SUMIF`, `COUNTUNIQUE`, `COUNTA`, `IF`
   - Pivot tables for aggregation
-  - Conditional formatting for anomaly detection
 
 ---
 
